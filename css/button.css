@@ -15,15 +15,10 @@
 }
 
 .button2 {
-    -fx-background-color: #825CE8;
-    -fx-border-color: transparent;
-}
-
-.button3 {
     -fx-opacity: 0.5;
     -fx-text-fill: #FFFFFF;
 }
-.button3:hover {
+.button2:hover {
     -fx-background-color: transparent;
     -fx-opacity: 1;
 }
