@@ -33,7 +33,6 @@
 -->
 
 <?import java.lang.String?>
-<?import java.net.URL?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.Glow?>
@@ -83,7 +82,7 @@
                <graphic>
                   <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
                      <image>
-                        <Image url="@../../IdeaProjects/Dictionary_OOP/src/resources/icon/logout-icon.png" />
+                        <Image url="@logout-icon.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -112,37 +111,28 @@
             </TextField>
          </children>
       </HBox>
-      <TextField depthTest="ENABLE" disable="true" layoutX="170.0" layoutY="132.0" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #2A2931; -fx-background-radius: 15 0 15 15;" text="Let's going out tonight">
+      <TextField depthTest="ENABLE" disable="true" layoutX="170.0" layoutY="132.0" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #2A2931; -fx-background-radius: 15 0 15 15;" stylesheets="@css/textField.css" text="Let's going out tonight">
          <font>
             <Font size="14.0" />
          </font>
-         <stylesheets>
-            <URL value="@../../IdeaProjects/Dictionary_OOP/src/resources/css/textField.css" />
-         </stylesheets>
          <styleClass>
             <String fx:value="custom-textfield" />
             <String fx:value="non-border" />
          </styleClass>
       </TextField>
-      <TextField depthTest="ENABLE" disable="true" layoutX="60.0" layoutY="172.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #2A2931; -fx-background-radius: 15 0 15 15;" text="I already buy 2 ticket's for Fantastic Beast">
+      <TextField depthTest="ENABLE" disable="true" layoutX="60.0" layoutY="172.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #2A2931; -fx-background-radius: 15 0 15 15;" stylesheets="@css/textField.css" text="I already buy 2 ticket's for Fantastic Beast">
          <font>
             <Font size="14.0" />
          </font>
-         <stylesheets>
-            <URL value="@../../IdeaProjects/Dictionary_OOP/src/resources/css/textField.css" />
-         </stylesheets>
          <styleClass>
             <String fx:value="custom-textfield" />
             <String fx:value="non-border" />
          </styleClass>
       </TextField>
-      <TextField depthTest="ENABLE" disable="true" layoutX="14.0" layoutY="224.0" prefHeight="30.0" prefWidth="280.0" style="-fx-background-color: #825ce8; -fx-background-radius: 0 15 15 15;" text="Alright, come to my home before going night">
+      <TextField depthTest="ENABLE" disable="true" layoutX="14.0" layoutY="224.0" prefHeight="30.0" prefWidth="280.0" style="-fx-background-color: #825ce8; -fx-background-radius: 0 15 15 15;" stylesheets="@css/textField.css" text="Alright, come to my home before going night">
          <font>
             <Font size="14.0" />
          </font>
-         <stylesheets>
-            <URL value="@../../IdeaProjects/Dictionary_OOP/src/resources/css/textField.css" />
-         </stylesheets>
          <styleClass>
             <String fx:value="custom-textfield" />
             <String fx:value="non-border" />
@@ -151,13 +141,10 @@
             <Glow />
          </effect>
       </TextField>
-      <TextField depthTest="ENABLE" disable="true" layoutX="14.0" layoutY="264.0" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: #825ce8; -fx-background-radius: 0 15 15 15;" text="Let me prepare myself first">
+      <TextField depthTest="ENABLE" disable="true" layoutX="14.0" layoutY="264.0" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: #825ce8; -fx-background-radius: 0 15 15 15;" stylesheets="@css/textField.css" text="Let me prepare myself first">
          <font>
             <Font size="14.0" />
          </font>
-         <stylesheets>
-            <URL value="@../../IdeaProjects/Dictionary_OOP/src/resources/css/textField.css" />
-         </stylesheets>
          <styleClass>
             <String fx:value="custom-textfield" />
             <String fx:value="non-border" />
@@ -166,13 +153,10 @@
             <Glow />
          </effect>
       </TextField>
-      <TextField depthTest="ENABLE" disable="true" layoutX="14.0" layoutY="304.0" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #825ce8; -fx-background-radius: 0 15 15 15;" text="See you baby">
+      <TextField depthTest="ENABLE" disable="true" layoutX="14.0" layoutY="304.0" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #825ce8; -fx-background-radius: 0 15 15 15;" stylesheets="@css/textField.css" text="See you baby">
          <font>
             <Font size="14.0" />
          </font>
-         <stylesheets>
-            <URL value="@../../IdeaProjects/Dictionary_OOP/src/resources/css/textField.css" />
-         </stylesheets>
          <styleClass>
             <String fx:value="custom-textfield" />
             <String fx:value="non-border" />
@@ -181,13 +165,10 @@
             <Glow />
          </effect>
       </TextField>
-      <TextField depthTest="ENABLE" disable="true" layoutX="270.0" layoutY="347.0" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: #2A2931; -fx-background-radius: 15 0 15 15;" text="Byeee">
+      <TextField depthTest="ENABLE" disable="true" layoutX="270.0" layoutY="347.0" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: #2A2931; -fx-background-radius: 15 0 15 15;" stylesheets="@css/textField.css" text="Byeee">
          <font>
             <Font size="14.0" />
          </font>
-         <stylesheets>
-            <URL value="@../../IdeaProjects/Dictionary_OOP/src/resources/css/textField.css" />
-         </stylesheets>
          <styleClass>
             <String fx:value="custom-textfield" />
             <String fx:value="non-border" />
